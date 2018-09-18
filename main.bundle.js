@@ -25873,9 +25873,9 @@ var GlobalAssets = (function () {
     function GlobalAssets() {
         //public environment: string = "azureProd";
         this.environment = "local";
-        this.environment = "local";
+        //this.environment = "local";
         // this.environment = "azureProd";
-        //this.environment = "local"
+        this.environment = "azureuat";
         if (this.environment === "local") {
             this.BASE_URL = "http://localhost:59611/api";
             this.TOKEN = "http://localhost:59611/Token";
